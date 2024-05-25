@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A webpage using all HTML tags">
+    <meta name="author" content="ChatGPT">
+    <title>All HTML Tags</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, footer { background: #f8f9fa; padding: 10px; text-align: center; }
+        nav { margin: 20px 0; }
+        article, div { margin: 20px 0; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        code { background: #f1f1f1; padding: 2px 4px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the HTML Tag Showcase</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#tables">Tables</a></li>
+        </ul>
+    </nav>
+    
+    <div id="introduction">
+        <h2>Introduction</h2>
+        <p>This webpage demonstrates the use of various HTML tags.</p>
+    </div>
+    
+    <div id="content">
+        <h2>Content Tags</h2>
+        <article>
+            <h3>Article Heading</h3>
+            <p>This is a paragraph in an article. You can use <strong>strong</strong> and <em>emphasis</em> tags within it.</p>
+            <p>Here is a <a href="https://example.com">link</a> to an external website.</p>
+            <blockquote cite="https://example.com">
+                This is a blockquote from an external source.
+            </blockquote>
+            <p>Here is an inline <code>code</code> snippet.</p>
+            <pre><code>
+# This is a code block
+print("Hello, World!")
+            </code></pre>
+        </article>
+        
+        <aside>
+            <h3>Sidebar Content</h3>
+            <p>This is some content in an aside tag, often used for side notes.</p>
+        </aside>
+    </div>
+    
+    <div id="media">
+        <h2>Media Tags</h2>
+        <figure>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <figcaption>Figure 1: This is a placeholder image.</figcaption>
+        </figure>
+        <video controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    <div id="forms">
+        <h2>Form Tags</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            
+            <fieldset>
+                <legend>Choose your favorite language</legend>
+                <input type="radio" id="html" name="language" value="HTML">
+                <label for="html">HTML</label>
+                <input type="radio" id="css" name="language" value="CSS">
+                <label for="css">CSS</label>
+                <input type="radio" id="js" name="language" value="JavaScript">
+                <label for="js">JavaScript</label>
+            </fieldset>
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <div id="tables">
+        <h2>Table Tags</h2>
+        <table>
+            <caption>Sample Table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>30</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 HTML Tag Showcase</p>
+    </footer>
+</body>
+</html>
